@@ -11,14 +11,10 @@ const HomePage = () => {
         { id: 3, name: "Jane Doe" ,url:"https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABdi6oYb6DJb1LndQWckgaXvrqqP3QURNa8Xngiq7wwFwDtWIg1otEuYKVxbYwS9c5clAI1_Bn7DuljwcvhfUzQu2_Y2v9y5P6t_n.png"},
       ];
 
-
     const handleClick =(user)=>{
-
         navigate(`/browser/${user?.id}`,{state:user});
-
     }
-
-  
+ 
     return(
     <Container>
             <img style={{width: '120px',height: '80px'}} src='https://download.logo.wine/logo/Netflix/Netflix-Logo.wine.png' />
